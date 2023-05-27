@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: pink;
+}
+td {
+    text-align: center;
+    width: 5vw;
+    border: 1px solid black;
+    color: black;
+    size: 12px;
+    font-weight: 700;
+    
+}
+.title-periodic{
+    text-align: center;
+}
+.none {
+    border: none;
+}
+
+.color1 {
+    background-color: aquamarine;
+}
+
+.color2 {
+    background-color: rgb(248, 99, 99);
+}
+
+.color3 {
+    background-color: rgb(236, 170, 47);
+}
+
+.color4 {
+    background-color: #4cb9f0;
+}
+
+.color5 {
+    background-color: #73a578;
+}
+
+.color6 {
+    background-color: #f04dc7;
+}
+
+.color7 {
+    background-color: #e9937e;
+}
+
+.color8 {
+    background-color: #59cf6e;
+}
+
+.color9 {
+    background-color: #d8fafa;
+}
+
+.color10{
+    background-color: #f598f5;
+}
+
+.color11{
+    background-color: #859998;
+}
+.color12{
+    background-color: white;
+}
+.color13{
+    background-color: yellow;
+}
+.color14{
+    background-color: tan;
+}
+.color15{
+    background-color: aqua;
+}
+.color16{
+    background-color: cornflowerblue;
+}
+.color17{
+    background-color: lawngreen;
+}
+.color18{
+    background-color: khaki;
+}
