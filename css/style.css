@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#about-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#SurveyForm{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#ResponsiveLayout{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#PeriodicTable{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#gallery {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+#contact-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --main-color: pink;
+}
+
+.act,
+.navbar ul li a:hover {
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.theme-text {
+    color: var(--main-color) !important;
+}
+
+.ourlogo img {
+    width: 65px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    border-radius: 50%;
+}
+
+.title {
+    display: flex;    
+    height: 50vh;
+    width: 60%;
+}
+.title-periodic{
+    text-align: center;
+}
+.title h1 {
+    font-size: 50px;
+}
+
+.ournames {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 10vh;
+    width: 40vh;
+}
+
+.ournames h3 {
+    font-size: 20px;
+}
+
+.us-img{
+    margin-left: -100px;
+    right: -60px;
+}
+
+.about_us {
+    display: flex;
+    height: 40vh;
+    width: 60%;
+}
+
+.carousel-item {
+    height: 80vh;
+    margin-top: 5%;
+}
+
+.activities-title {
+    display: flex;
+    height: 40vh;
+    width: 60%;
+}
+
+.activities {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 40vh;
+    width: 70%;
+}
+
+.activities{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.picus{
+    background: pink;
+    width: 350px;
+    padding: 3rem;
+}
+.uspic img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
